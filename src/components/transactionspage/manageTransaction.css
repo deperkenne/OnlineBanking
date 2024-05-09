@@ -1,0 +1,125 @@
+
+.barleft-side{
+   display: flex;
+   flex-direction: column;
+   top:0;
+   bottom: 0;
+   align-items: center;
+   justify-content: center;
+   width: 300px;
+   background-color: #cdcdcd;
+   position:fixed;
+   z-index: 2;
+
+
+}
+
+.containerapercu{
+  display:flex;
+  flex-direction: row;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: relative;
+}
+
+.home{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center ;
+  margin: auto;
+}
+
+
+.button-like-div {
+  width: 800px;
+  height: 98px; /* Vous pouvez ajuster la hauteur selon vos besoins */
+  color: black; /* Couleur du texte */
+  line-height: 40px; /* Centrer le texte verticalement */
+  cursor: pointer; /* Curseur pointer pour indiquer qu'il s'agit d'un élément cliquable */
+  border: none; /* Supprimer les bordures */
+  outline: none; /* Supprimer la bordure de focus */
+  margin-bottom: 3px;
+  flex-direction: row !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 3px rgb(86,86,86,0.1);
+  border: 1px solid #cdcdcd;
+  border-radius: 8px;
+
+}
+
+.button-like-divüber{
+  border-bottom: 1px solid #e3e3e3;
+  width: 800px;
+  height: 98px; /* Vous pouvez ajuster la hauteur selon vos besoins */
+  color: black; /* Couleur du texte */
+  line-height: 40px; /* Centrer le texte verticalement */
+  cursor: pointer; /* Curseur pointer pour indiquer qu'il s'agit d'un élément cliquable */
+  border: none; /* Supprimer les bordures */
+  border-radius: 5px; /* Ajouter des coins arrondis */
+  outline: none; /* Supprimer la bordure de focus */
+  margin-bottom: 3px;
+  flex-direction: row !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+ 
+
+
+
+.divlinkberweisung{
+  margin: 0;
+  width: auto;
+  min-height: 40px;
+  display: flex;
+  border-radius: 20px;
+  font-size: 16px;
+  padding: 7px;
+  background-color: red;
+  color:white
+}
+
+.mkp-button-group {
+  display: flex;
+  gap: 8px;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.divlinklisttransaction{
+  width: 800px;
+  height: 150px; /* Vous pouvez ajuster la hauteur selon vos besoins */
+  color: black; /* Couleur du texte *
+  cursor: pointer; /* Curseur pointer pour indiquer qu'il s'agit d'un élément cliquable */
+  border: none; /* Supprimer les bordures */
+  outline: none; /* Supprimer la bordure de focus */
+  flex-direction: row !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 3px rgb(86,86,86,0.1);
+  border: 1px solid #cdcdcd;
+  border-radius: 8px;
+  cursor: pointer; /* Curseur pointer pour indiquer qu'il s'agit d'un élément cliquable */
+
+}
+
+.divlinklisttransaction div{
+display: flex;
+flex-direction: column;
+
+}
+.containerdivtransaction{
+  margin-bottom: 3px;
+
+}
+

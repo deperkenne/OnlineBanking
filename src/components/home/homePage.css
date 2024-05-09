@@ -1,0 +1,81 @@
+
+.welcome-message{
+
+ display: flex;
+ flex-direction: column;
+ justify-content: center !important;
+ align-items: center !important;
+
+}
+
+
+
+.if6_section, .if6_homepagearea {
+    background-color: var(--ui-04);
+    font: 16px / 150% SparkasseWeb, Helvetica, Arial, sans-serif;
+    clear: left;
+    overflow: visible;
+}
+.if6_outer {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: var(--ui-04);
+    margin-left: 0;
+    transition: margin-left .5s ease .2s;
+
+}
+
+.section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.input-div{
+  border-radius: 6px;
+  width: 100%;
+  background-color: var(--ui-background-02);
+  
+
+}
+
+.input-text{
+    min-height: 72px;
+    font: 17px / 23px SparkasseWeb, Helvetica, Arial, sans-serif;
+    outline: 0;
+    border:none;
+
+}
+
+
+.submit-button{
+
+   margin-top:3px;
+   margin-bottom: 3px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   
+   width:100%;
+
+
+  }
+
+  .submit-button div{
+   border-radius: 20px;
+   background-color: red;
+   display: flex;
+   color:white;
+   padding-top:0 ;
+
+
+  }
+
+  .submit-button input{
+    
+
+
+  }

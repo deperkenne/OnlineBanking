@@ -1,0 +1,11 @@
+
+
+.containerdiv{
+   display: flex;
+  
+   background-color:white;
+   justify-content: center;
+   flex-direction: column;
+
+  
+}
